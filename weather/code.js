@@ -19,7 +19,7 @@ hamburger.addEventListener("click", ()=>{
     })
 
 async function getWeather(place='minsk'){
-    const url =`http://api.worldweatheronline.com/premium/v1/weather.ashx?key=bf9d673488df4611ad6162034212710&q=${place}&num_of_days=5&format=json`;
+    const url =`https://api.worldweatheronline.com/premium/v1/weather.ashx?key=bf9d673488df4611ad6162034212710&q=${place}&num_of_days=5&format=json`;
     const res = await fetch(url);
     const data = await res.json(); 
     render(data)
