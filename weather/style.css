@@ -1,0 +1,110 @@
+body {
+
+ 
+    user-select: none;
+    }
+
+    .weather{
+        position: relative;
+        display: grid;
+        width: 432px;
+        padding: 13px;
+        grid-gap: 4px;
+        grid-template-rows: repeat(5, 1fr);
+        background: url(/pic/заакатик.VD2Cz.jpg) 100% 100%;
+        background-color: rgb(182, 149, 196);
+        border-radius: 45px;
+        font-family: Ubuntu Condensed;
+        font-style: normal;
+        font-weight: normal;
+        height: 768px;
+        left:35%;
+        
+    }
+
+    .day{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        justify-items: center;
+        align-items: center;
+
+    }
+    .today{
+        position: relative;
+        left: 30px;
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: bold;
+    }
+
+    .gradus{
+        display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    font-family: bold;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+    }
+
+    .report{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+       
+        font-family: bolder;
+        font-size: 25px;
+        line-height: 50px;
+        font-weight: bold;
+
+    }
+
+    .forecast{
+        color:white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        justify-items: center;
+        align-items: center;
+
+    }
+    .aug{
+
+        display: grid;
+        font-family: bold;
+        font-size: 20px;
+        line-height: 50px;
+        font-weight: bold;
+
+    }
+
+    .degree{
+        display: grid;
+        font-family: bold;
+        font-size: 20px;
+        line-height: 50px;
+        font-weight: bold;
+        
+    }
+
+    .city{
+        color:wheat;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        font-family: bolder;
+        font-size: 25px;
+        line-height: 80px;
+        font-weight: bold;
+    }
+
+    input{
+        position: relative;
+        left:32px;
+    }
+
+.hide{
+    display:none;
+}
